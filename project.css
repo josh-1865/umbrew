@@ -1,0 +1,482 @@
+body  {
+	font-family: 'Rubik', sans-serif; 
+}
+.modal {
+	display: none; 
+	position: fixed; 
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%; 
+	padding-top: 20px; 
+	padding-bottom: 50px;
+	background-color: rgb(0,0,0); 
+	background-color: rgba(0,0,0,0.4); 
+	overflow: auto;
+  }
+  
+.contain{
+    box-shadow: 1px 7px 11px rgba(0, 0, 0, 0.199);
+    border-radius: 25px;
+	margin:0 10%;
+	background-color: #dfe1e4;
+	overflow: hidden;
+	height:570px;
+}
+.fa-circle-xmark{
+	left: 196px;
+    position: relative;
+    bottom: 26px;
+    font-size: 45px;
+	color: black;
+}
+.grod{
+    display: grid;
+    grid-template-columns: 55% 45% ;
+	height: 100%; 
+	
+}
+.gridd{
+   background-color: #dfe1e4;
+}
+.bigger{
+    width: 585px;
+    height: 583px;
+	
+}
+.Reg{
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(63, 62, 62);
+    letter-spacing: 0.3px;
+}
+
+.content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+	background-color: #dfe1e4;
+
+}
+
+a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: rgb(63, 62, 62);
+}
+
+#email{
+    margin-bottom: 8% ;
+}
+
+.signup {
+    margin-top: 16px;
+    padding: 5px 6px;
+    color: rgb(0, 0, 0);
+    background: none;
+    border: 2px solid #4267B2 ;
+    border-radius:10px ;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+
+}
+
+button {color: white;}
+
+.facebook-button{
+    width: 100%;
+    height: 40px;
+    background-color: #4267B2;
+    padding:5px 6px ;
+    border-radius:10px ;
+    margin-bottom: 7px;
+    border:none ;  
+}
+.google-button{
+    width: 100%;
+    height: 40px;
+    background-color:#dd4b39;
+    padding:5px 10px ;
+    border-radius:10px; 
+    margin-top:7px ;
+    border:none ;
+}
+
+form {
+    width: 70%;
+}
+
+input {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.062);
+    padding: 10px 13px;
+    width: 90%;
+}
+h2{
+	color: #2a3a60;
+}
+
+.container{
+    margin: 0 10%;
+}
+
+header{
+	background-color: rgb(86, 86, 139);
+	color: white;
+	margin-bottom: 10%;
+}
+
+.lo{
+	color: aliceblue;
+	font-size: 2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo{
+	color: #ff6584;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bolder;
+}
+
+.longContainer {
+	margin: 0 10%;
+}
+
+.first, .second {
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+}
+
+.first {
+	margin-bottom: 1%;
+}
+
+.navi{width:30%}
+
+.navi ul{
+	display:flex;
+	justify-content:space-around;
+	padding: 30px;	
+	color:rgb(255, 255, 255);
+}
+
+.navi li{
+	list-style:none;
+	font-size: smaller;
+	padding-bottom: 3px;
+}
+
+.navi li:hover {
+    position: relative;
+	cursor: pointer;
+}
+
+.navi li:hover::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+	background-color: #ff6584;
+}
+
+.stamp{
+	display:flex;
+	justify-content:space-between;
+	background-color: rgb(86, 86, 139);
+	height: 90vh;
+}
+
+.texting {padding-top: 5%;}
+
+.texting h1{
+	font-size: 4em;
+}
+
+.texting button {
+	margin: 40px 20px 40px 0;
+	background-color: #6c63ff;
+}
+
+.texting .btn2 {background-color: #ff6584;}
+
+.texting .fa-facebook-f {
+	color: white;
+	font-size: xx-large;
+}
+
+/* .ptext{
+
+} */
+
+button{
+	margin: 20px 20px 20px 0;
+	background-color: #6c63ff;
+    padding: 13px 30px;
+    color: white;
+	border: none;
+    border-radius: 50px 50px 50px 0;
+}
+
+button:hover {
+    border-radius: 0 50px 50px 50px;
+    transition: 1s;
+}
+
+.idam{
+	width:50%;
+}
+
+.anon button{
+	margin-top: 1px;
+}
+.anonh2{
+	line-height: 1.4;
+}
+.anon p{
+	margin-top: 0;
+    margin-bottom: 1rem;
+	color: #65617d;
+	font-size: large;
+	font-weight: 500;
+}
+.icon{
+	width:40px;
+	height: 40px;
+	color: #6c63ff;
+	background-color: #ffffff ;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+
+.grid-item2,
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6,
+.grid-item7
+{
+text-align: center;
+background-color: #ffffffab;
+padding: 10px;
+margin-left: 10px ;
+box-shadow: 1px 7px 11px rgba(0, 0, 0, 0.199);
+border-radius: 10px;
+margin-bottom: 5%;
+margin-right: 5%;
+margin-top: 5%;
+}
+
+.grid-item2:hover{
+	background-color:#87c9e7;
+}
+.grid-item3:hover{
+	background-color:#87c9e7;
+}
+.grid-item4:hover{
+	background-color:#87c9e7;
+}
+.grid-item5:hover{
+	background-color:#87c9e7;
+}
+.grid-item6:hover{
+	background-color:#87c9e7;
+}
+.grid-item7:hover{
+	background-color:#87c9e7;
+}
+
+.mo{
+
+	display: flex;	
+	padding-top: 5%;
+}
+.mo h2{
+	font-size: 35px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.about{
+	width: 600px;
+	height: 700px; 
+}
+.us{
+	padding-top: 60px;
+	margin-left:60px ;
+}
+.us p{
+	margin-top: 0;
+    margin-bottom: 1rem;
+	color: #65617d;
+	font-size: large;
+	font-weight: 500;
+	
+}
+.work{
+	text-align: center;
+}
+
+.worker-item1, .worker-item2, .worker-item3, .worker-item4 {
+	box-shadow: 9px 12px 16px rgba(128, 128, 128, 0.253);
+	overflow: hidden;
+}
+
+.worker-item1 h3, .worker-item2 h3,.worker-item3 h3,.worker-item4 h3{
+	color: #65617d;
+}
+
+.worker-image1 {
+	height: 80%;
+	background-image: url(./image/Ryan-Anderson.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.worker-image2 {
+	height: 80%;
+	background-image: url(./image/pexels-mizuno-k-13801614.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.worker-image3 {
+	height: 80%;
+	background-image: url(./image/pexels-kampus-production-8353832.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.worker-image4 {
+	height: 80%;
+	background-image: url(./image/pexels-linkedin-sales-navigator-2182970.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.mention h2{text-align: center}
+
+.mention p{text-align: center;}
+
+.mention{text-align: center;}
+
+.note{
+	display:grid;
+	grid-template-columns:23% 23% 23% 23% ;
+	gap: 30px;
+}
+
+.flip-item1,
+.flip-item2,
+.flip-item3,
+.flip-item4{
+	text-align: center;
+	background-color: #ffffffab;
+	box-shadow: 1px 7px 11px rgba(0, 0, 0, 0.199);
+	border-radius: 10px;
+	padding: 2%;
+	height: 100%;
+	margin-bottom: 20%;
+}
+.flip-item1:hover{
+	background-color:#87c9e7;
+}
+.flip-item2:hover{
+	background-color:#87c9e7;
+}
+.flip-item3:hover{
+	background-color:#87c9e7;
+}
+.flip-item4:hover{
+	background-color:#87c9e7;
+}
+.pricing{
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	gap: 25px;
+	
+}
+.price{
+	text-align: center;
+	background-color: #ffffffab;
+	box-shadow: 1px 7px 11px rgba(0, 0, 0, 0.199);
+	border-radius: 10px;
+	height: 100%;
+	
+}
+.price li{
+	list-style-type: none;
+	text-align: left;
+	
+	padding: 13px 20px;
+}
+.prices{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 3%;
+}
+.fooi{
+	background-color: #6c63ff;
+	color: white;
+	margin-top: 8%;
+}
+.news{
+	margin:0 10%;
+	display:flex;
+	align-items: center;
+	justify-content:space-between;
+	height: 20%;
+}
+#email{
+	border: none;
+	padding: 7px;
+	box-sizing: border-box;
+	color: rgb(36, 32, 32);
+}
+
+.footer{
+	display: grid;
+	grid-template-columns: 24% 24% 24% 24%;
+	margin-top: 20%;
+	text-align: center;
+	height: 40%;
+	margin: 0 10%;
+	padding-top: 3%;
+}
+.footer li{
+	list-style: none;
+	margin-bottom: 5%;
+	text-align: left;
+	padding-left: 15%;
+	margin-right: 5%;
+}
+.foot1{
+	text-align: left;
+	padding-top: 10%;
+}
+.foos{
+	background-color: #eaedff;
+}
+.footend{
+	background-color: #6c63ff;
+	height: 15%;
+}
+.copyright{
+	margin: 0 10%;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.dark-mode{
+	background-color: black;
+	color: white;
+}
